@@ -1,23 +1,97 @@
-# Compiled files
+### Java ###
 *.class
+*.jar
+*.war
+*.ear
+*.log
+*.bak
+*.lock
+*.tmp
+*.temp
+*.cache
+
+### Maven ###
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# IDE
+### IntelliJ IDEA ###
 .idea/
-*.iml
 *.iws
+*.iml
+*.ipr
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# OS
+### Eclipse ###
+.project
+.classpath
+.settings/
+bin/
+*.launch
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### OS ###
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
 
-# Output files
-*-integers.txt
-*-floats.txt
-*-strings.txt
+### Logs ###
+logs/
+*.log
+liferay-logs/
+
+### Test files ###
+test-output/
+*.test
+**/test-results/
+
+### Temp files ###
+temp/
+tmp/
+*.tmp
+*.temp
+
+### Project specific ###
+# Входные файлы
+in*.txt
+sample-*.txt
+
+# Выходные файлы
 integers.txt
 floats.txt
 strings.txt
+*-integers.txt
+*-floats.txt
+*-strings.txt
 
-# Logs
-*.log
+### Sensitive info ###
+*.properties
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
